@@ -1,7 +1,7 @@
 from pymongo import MongoClient
 import pandas as pd
 
-MONGO_URI = "mongodb+srv://dlopreinoso_db_user:QGNmgTThcmA4LHpt@cluster0.etael0e.mongodb.net/"
+MONGO_URI = "URI_MONGO"
 
 client = MongoClient(MONGO_URI)
 db = client["lab05"]

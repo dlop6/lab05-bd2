@@ -19,7 +19,7 @@ df_sql = pd.read_sql("""
 # ----------------------------
 # 2) Leer Mongo
 # ----------------------------
-MONGO_URI = "mongodb+srv://dlopreinoso_db_user:QGNmgTThcmA4LHpt@cluster0.etael0e.mongodb.net/"
+MONGO_URI = "URI_MONGO"
 
 client = MongoClient(MONGO_URI)
 db = client["lab05"]
